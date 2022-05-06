@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.description { 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.extra {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 20px;
+}
+.avatar {
+  max-width: 30px;
+  max-height: 30px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
